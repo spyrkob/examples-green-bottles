@@ -24,4 +24,8 @@ public class Wall {
         bottles.pop();
     }
 
+    public void cleanUp() {
+        bottles = null;
+    }
+
 }
